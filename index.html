@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda Medieval</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>⚔️ Tienda Medieval ⚒️</h1>
+      <p>Bienvenido viajero, elige tus armas y armaduras</p>
+    
+    </header>
+
+    
+    <section id="loginSection">
+      <h2>Acceso al Taller del Herrero</h2>
+      <form id="loginForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required />
+
+        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fechaNacimiento" required />
+
+        <button type="submit">Ingresar</button>
+      </form>
+    </section>
+
+    <!--  estructura de la tienda -->
+    <main id="tienda" style="display: none">
+      <section id="productos">
+        <h2>Inventario del Herrero</h2>
+        <div class="grid-productos"></div>
+      </section>
+
+      <section id="carritointerior">
+        <h2>🛒 Carrito</h2>
+        <ul id="carrito"></ul>
+        <p id="total">Total: 0 monedas de oro</p>
+        <button id="vaciarCarrito">Vaciar Carrito</button>
+        <button id="comprarCarrito">Comprar</button>
+      </section>
+
+      <section id="comprasHistorial">
+        <h2>📜 Historial de Compras</h2>
+        <ul id="compras"></ul>
+        <button id="borrarHistorial">Borrar Historial</button>
+      </section>
+    </main>
+
+    <footer>
+      <p>Hecho con 🔥 y ⚒️ por un aprendiz de herrero</p>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
