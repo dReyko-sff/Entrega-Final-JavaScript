@@ -6,5 +6,6 @@
   { "id": 5, "nombre": "Arco Élfico", "precio": 180, "img": "./recursos/arco.jpeg" },
   { "id": 6, "nombre": "Ballesta Imperial", "precio": 250, "img": "./recursos/ballesta.jpeg" },
   { "id": 7, "nombre": "Maza del Enano", "precio": 120, "img": "./recursos/maza.jpeg" },
-  { "id": 8, "nombre": "Lanza de los Dioses", "precio": 300, "img": "./recursos/lanza.jpeg" }
+  { "id": 8, "nombre": "Lanza de los Dioses", "precio": 300, "img": "./recursos/lanza.jpeg" },
+  { "id": 9, "nombre": "Baculo Magico", "precio": 500, "img": "./recursos/baculo.jpeg" }
 ]

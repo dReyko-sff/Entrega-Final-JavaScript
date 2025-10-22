@@ -1,4 +1,5 @@
 // nuestro login
+
 const loginForm = document.getElementById("loginForm");
 const loginSection = document.getElementById("loginSection");
 const tienda = document.getElementById("tienda");
@@ -54,12 +55,13 @@ function calcularEdad(fecha) {
 }
 
 // tienda
+
 let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 let compras = JSON.parse(localStorage.getItem("compras")) || [];
 
 const divProductos = document.querySelector(".grid-productos");
 
-// cargar productos desde JSON local
+// error al cargar productos desde JSON local
 
 
 fetch("./productos.json")
